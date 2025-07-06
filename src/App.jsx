@@ -306,19 +306,19 @@ const App = () => {
   const projectsData = [
     {
       title: "Aura Speaks",
-      imageUrl: "https://placehold.co/600x400/E0F2F7/2D3748?text=Language+Translator", // Placeholder image
+      imageUrl: "/iamges/project1.png", // Placeholder image
       githubLink: "#", // Replace with actual GitHub link
       liveLink: "#",   // Replace with actual Live Demo link
     },
     {
       title: "Apna_Lawyer",
-      imageUrl: "https://placehold.co/600x400/E0F2F7/2D3748?text=Legal+Chatbot", // Placeholder image
+      imageUrl: "/iamges/project2.png", // Placeholder image
       githubLink: "#", // Replace with actual GitHub link
       liveLink: "#",   // Replace with actual Live Demo link
     },
     {
       title: "RentX",
-      imageUrl: "https://placehold.co/600x400/E0F2F7/2D3748?text=Car+Rental+Website", // Placeholder image
+      imageUrl: "/iamges/rentx.png", // Placeholder image
       githubLink: "#", // Replace with actual GitHub link
       liveLink: "#",   // Replace with actual Live Demo link
     },
@@ -496,7 +496,7 @@ const App = () => {
           className={`py-20 px-6 md:px-12 bg-blue-100 text-gray-800 transition-opacity duration-1000 transform ${visibleSections.about ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
         >
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl font-bold text-center text-teal-600 mb-12">About Me</h2>
+            <h2 className="text-4xl font-bold text-center text-teal-600 mb-12">Beyond the Code</h2>
             <div className="flex flex-col md:flex-row items-center md:space-x-8">
               <div className="md:w-1/3 mb-8 md:mb-0">
                 <div className="relative w-56 h-72 md:w-72 md:h-96 p-1 bg-gradient-to-br from-teal-500 to-purple-500 rounded-xl shadow-xl flex items-center justify-center overflow-hidden"> {/* Increased size slightly */}
@@ -542,7 +542,7 @@ const App = () => {
           className={`py-20 px-6 md:px-12 bg-blue-50 text-gray-800 transition-opacity duration-1000 transform ${visibleSections.skills ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
         >
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl font-bold text-center text-purple-600 mb-12">Skills & Abilities</h2>
+            <h2 className="text-4xl font-bold text-center text-purple-600 mb-12">Skill Arsenal</h2>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
               {skillsData.map((skill, index) => (
                 <SkillCard key={index} iconUrl={skill.iconUrl} name={skill.name} />
@@ -584,7 +584,7 @@ const App = () => {
           className={`py-20 px-6 md:px-12 bg-blue-50 text-gray-800 transition-opacity duration-1000 transform ${visibleSections.projects ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
         >
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl font-bold text-center text-purple-600 mb-12">My Works</h2>
+            <h2 className="text-4xl font-bold text-center text-purple-600 mb-12">Innovations</h2>
             {/* Modified grid for 2-column layout on medium/large screens, with third item centered */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
               {projectsData.map((project, index) => (
@@ -608,7 +608,7 @@ const App = () => {
           className={`py-20 px-6 md:px-12 bg-blue-100 text-gray-800 transition-opacity duration-1000 transform ${visibleSections.contact ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
         >
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl font-bold text-center text-teal-600 mb-12">Got Something in Mind!</h2>
+            <h2 className="text-4xl font-bold text-center text-teal-600 mb-12">Let's Collaborate !</h2>
             <div className="bg-white p-8 rounded-xl shadow-lg border border-blue-200 flex flex-col md:flex-row items-center justify-center gap-8">
               {/* Image Section */}
               <div className="md:w-1/2 flex justify-center items-center">

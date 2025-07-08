@@ -288,7 +288,7 @@ const App = () => {
     {
       title: "Cyber Security Bootcamp",
       company: "MNNIT Allahabad",
-      duration: "March 2024",
+      duration: "March 2025",
     },
     {
       title: "Java Software Developer Intern",
